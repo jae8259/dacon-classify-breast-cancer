@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "mathematical foundations of deep neural networks"
+version = "0.1.0"
+description = ""
+authors = ["jae8259 <dragonj5290@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "~3.9"
+matplotlib = "^3.5.3"
+numpy = "^1.23.2"
+scipy = "^1.9.1"
+torch = "^1.12.1"
+torchvision = "^0.13.1"
+p2j = "^1.3.2"
+ipykernel = "^6.15.2"
+sklearn = "^0.0"
+torchsummary = "^1.5.1"
+notebook = "^6.5.1"
+jupytext = "^1.14.1"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^22.8.0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
