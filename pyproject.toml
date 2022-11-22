@@ -17,6 +17,7 @@ sklearn = "^0.0"
 torchsummary = "^1.5.1"
 notebook = "^6.5.1"
 jupytext = "^1.14.1"
+ipynb-py-convert = "^0.4.6"
 
 [tool.poetry.dev-dependencies]
 black = {version = "^22.8.0", allow-prereleases = true}
